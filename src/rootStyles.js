@@ -1,8 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const RootStyles = createGlobalStyle`
-
-body {
+    body {
         margin: 0;
         display: block;
         font-weight: 400;
