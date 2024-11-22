@@ -147,7 +147,7 @@ to {
   animation: ${yv} 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;
 `;on.svg`
   transform-origin: 50% 65%;
-`;const gv=()=>W.jsx(mv,{visible:!0,height:"80",width:"80",color:"var(--button-hover)",secondaryColor:"var(--button)",ariaLabel:"oval-loading",wrapperStyle:{},wrapperClass:""}),wv=$.lazy(()=>Br(()=>import("./Header-BOiBtpjF.js"),[],import.meta.url)),Sv=$.lazy(()=>Br(()=>import("./Home-BwY0I9DC.js"),[],import.meta.url)),kv=$.lazy(()=>Br(()=>import("./Catalog-594x240B.js"),[],import.meta.url)),Ev=$.lazy(()=>Br(()=>import("./Camper-pVg_d3GH.js"),[],import.meta.url)),xv=$.lazy(()=>Br(()=>import("./Error-GCS9aekr.js"),[],import.meta.url));function Cv(){return W.jsx($.Suspense,{fallback:W.jsx(gv,{}),children:W.jsx(o0,{children:W.jsxs(an,{path:"/",element:W.jsx(wv,{}),children:[W.jsx(an,{index:!0,element:W.jsx(Sv,{})}),W.jsx(an,{path:"catalog",element:W.jsx(kv,{}),children:W.jsx(an,{path:":id",element:W.jsx(Ev,{})})}),W.jsx(an,{path:"*",element:W.jsx(xv,{})})]})})})}const _v=""+new URL("Inter-Regular-BpskOkD5.ttf",import.meta.url).href,Pv=""+new URL("Inter-Medium-BtfNrkJj.ttf",import.meta.url).href,Nv=""+new URL("Inter-Semibold-C9_sHzqi.ttf",import.meta.url).href,$v=sv`
+`;const gv=()=>W.jsx(mv,{visible:!0,height:"80",width:"80",color:"var(--button-hover)",secondaryColor:"var(--button)",ariaLabel:"oval-loading",wrapperStyle:{},wrapperClass:""}),wv=$.lazy(()=>Br(()=>import("./Header-DaIjAzlD.js"),[],import.meta.url)),Sv=$.lazy(()=>Br(()=>import("./Home-DThR8bqK.js"),[],import.meta.url)),kv=$.lazy(()=>Br(()=>import("./Catalog-ByuZIQjB.js"),[],import.meta.url)),Ev=$.lazy(()=>Br(()=>import("./Camper-D7r_1LjO.js"),[],import.meta.url)),xv=$.lazy(()=>Br(()=>import("./Error-VVKn3BYG.js"),[],import.meta.url));function Cv(){return W.jsx($.Suspense,{fallback:W.jsx(gv,{}),children:W.jsx(o0,{children:W.jsxs(an,{path:"/",element:W.jsx(wv,{}),children:[W.jsx(an,{index:!0,element:W.jsx(Sv,{})}),W.jsx(an,{path:"catalog",element:W.jsx(kv,{}),children:W.jsx(an,{path:":id",element:W.jsx(Ev,{})})}),W.jsx(an,{path:"*",element:W.jsx(xv,{})})]})})})}const _v=""+new URL("Inter-Regular-BpskOkD5.ttf",import.meta.url).href,Pv=""+new URL("Inter-Medium-BtfNrkJj.ttf",import.meta.url).href,Nv=""+new URL("Inter-Semibold-C9_sHzqi.ttf",import.meta.url).href,$v=sv`
     :root {
         --main: #101828;
         --text: #475467;
@@ -214,4 +214,4 @@ to {
     button {
         cursor: pointer;
     }
-`;ad(document.getElementById("root")).render(W.jsx($.StrictMode,{children:W.jsxs(s0,{basename:"/travel_trucks",children:[W.jsx($v,{}),W.jsx(Cv,{})]})}));export{gv as L,Rv as O,W as j,$ as r};
+`;ad(document.getElementById("root")).render(W.jsx($.StrictMode,{children:W.jsxs(s0,{children:[W.jsx($v,{}),W.jsx(Cv,{})]})}));export{gv as L,Rv as O,W as j,$ as r};
