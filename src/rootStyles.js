@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 import InterRegular from "./assets/fonts/Inter-Regular.ttf";
 import InterMedium from "./assets/fonts/Inter-Medium.ttf";
 import InterSemibold from "./assets/fonts/Inter-Semibold.ttf";
+import InterBold from "./assets/fonts/Inter-Bold.ttf";
 
 export const RootStyles = createGlobalStyle`
     :root {
@@ -34,6 +35,12 @@ export const RootStyles = createGlobalStyle`
         font-weight: 600;
         font-style: normal;
         src: url(${InterSemibold}) format("truetype");
+    }
+    @font-face {
+        font-family: "Inter-Bold";
+        font-weight: 700;
+        font-style: normal;
+        src: url(${InterBold}) format("truetype");
     }
     body {
         margin: 0;
