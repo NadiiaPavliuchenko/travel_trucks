@@ -1,17 +1,18 @@
 import { Oval } from "react-loader-spinner";
+import { StyledLoader } from "./Loader.styled";
 
 const Loader = () => {
   return (
-    <Oval
-      visible={true}
-      height="80"
-      width="80"
-      color="var(--button-hover)"
-      secondaryColor="var(--button)"
-      ariaLabel="oval-loading"
-      wrapperStyle={{}}
-      wrapperClass=""
-    />
+    <StyledLoader>
+      <Oval
+        visible={true}
+        height="80"
+        width="80"
+        color="var(--button-hover)"
+        secondaryColor="var(--button)"
+        ariaLabel="oval-loading"
+      />
+    </StyledLoader>
   );
 };
 

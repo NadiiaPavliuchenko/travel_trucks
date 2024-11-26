@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { StyledPageContainer } from "../../styles/basePageContainer";
 import {
   StyledHomePage,
@@ -7,12 +8,15 @@ import {
 } from "./Home.styled";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <StyledHomePage>
       <StyledPageContainer>
         <StyledTitle>Campers of your dreams</StyledTitle>
         <StyledText>You can find everything you want in our catalog</StyledText>
-        <StyledButton>View now</StyledButton>
+        <StyledButton onClick={() => navigate("/catalog")}>
+          View now
+        </StyledButton>
       </StyledPageContainer>
     </StyledHomePage>
   );
