@@ -1,4 +1,4 @@
-import{d as e,N as r,j as t,r as s,L as n,O as a}from"./index-CWfII5Ea.js";const i=e.header`
+import{d as e,N as r,j as t,r as s,L as n,O as a}from"./index-BYAGfn_6.js";const i=e.header`
   background-color: var(--inputs);
   width: 100%;
   height: 72px;
@@ -33,7 +33,7 @@ import{d as e,N as r,j as t,r as s,L as n,O as a}from"./index-CWfII5Ea.js";const
   :focus {
     color: var(--button-hover);
   }
-  &:active {
+  &.active {
     color: var(--button-hover);
   }
 `,f=()=>t.jsxs(s.Suspense,{fallback:t.jsx(n,{}),children:[t.jsx(i,{children:t.jsxs(l,{children:[t.jsxs(d,{href:"/",children:["Travel",t.jsx(c,{children:"Trucks"})]}),t.jsxs(h,{children:[t.jsx(o,{to:"/",children:"Home"}),t.jsx(o,{to:"/catalog",children:"Catalog"})]})]})}),t.jsx(a,{})]});export{f as default};
