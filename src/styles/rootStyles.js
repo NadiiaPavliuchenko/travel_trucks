@@ -1,9 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
-import InterRegular from "./assets/fonts/Inter-Regular.ttf";
-import InterMedium from "./assets/fonts/Inter-Medium.ttf";
-import InterSemibold from "./assets/fonts/Inter-Semibold.ttf";
-import InterBold from "./assets/fonts/Inter-Bold.ttf";
+import InterRegular from "../assets/fonts/Inter-Regular.ttf";
+import InterMedium from "../assets/fonts/Inter-Medium.ttf";
+import InterSemibold from "../assets/fonts/Inter-Semibold.ttf";
+import InterBold from "../assets/fonts/Inter-Bold.ttf";
 
 export const RootStyles = createGlobalStyle`
     :root {

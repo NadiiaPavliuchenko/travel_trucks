@@ -46,7 +46,7 @@ export const StyledNavLink = styled(NavLink)`
   :focus {
     color: var(--button-hover);
   }
-  &:active {
+  &.active {
     color: var(--button-hover);
   }
 `;
