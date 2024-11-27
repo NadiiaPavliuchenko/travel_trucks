@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchCamper, fetchAllCampers } from "./operations";
+import { fetchAllCampers } from "./operations";
 
 const initialState = {
+  total: 0,
   items: null,
   filters: null,
   favourites: null,
@@ -12,9 +13,10 @@ const campersSlice = createSlice({
   initialState,
   extraReducers: (builder) => {
     builder.addCase(fetchAllCampers.fulfilled, (state, action) => {
-      state.items = action.payload;
+      state.items = action.payload.items;
+      state.total = action.payload.total;
     });
   },
 });
 
-export default campersSlice.reducer;
+export const campersReducer = campersSlice.reducer;
