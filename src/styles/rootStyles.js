@@ -45,7 +45,7 @@ export const RootStyles = createGlobalStyle`
     body {
         margin: 0;
         display: block;
-        font-family: "Inter-Regular" sans-serif;
+        font-family: "Inter-Regular", sans-serif;
         font-weight: 400;
         font-style: normal;
         -webkit-font-smoothing: antialiased;

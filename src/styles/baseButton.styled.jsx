@@ -28,6 +28,8 @@ export const BaseButton = styled.button`
 
 export const BaseBadge = styled.div`
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   gap: 8px;
 
   border-radius: 100px;
@@ -43,5 +45,4 @@ export const BaseBadge = styled.div`
 
   color: var(--main);
   background-color: var(--badges);
-  fill: var(--main);
 `;
