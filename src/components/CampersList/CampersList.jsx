@@ -17,8 +17,10 @@ import {
   StyledButton,
 } from "./CampersList.styled";
 import Badges from "../Badges/Badges";
+import { useNavigate } from "react-router-dom";
 
 const CampersList = () => {
+  const navigate = useNavigate();
   const campers = useSelector(selectCampers);
 
   return (
@@ -69,7 +71,9 @@ const CampersList = () => {
                   water: camper.water,
                 }}
               />
-              <StyledButton>Show More</StyledButton>
+              <StyledButton onClick={() => navigate(`/catalog/${camper.id}`)}>
+                Show More
+              </StyledButton>
             </CamperInfo>
           </Card>
         ))}
